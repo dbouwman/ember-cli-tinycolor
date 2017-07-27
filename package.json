@@ -1,24 +1,29 @@
 {
   "name": "ember-cli-tinycolor",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.9.0",
+  "description": "Ember Addon wrapping TinyColor.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "tinycolor",
+    "colors"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Dave Bouwman <dbouwman@esri.com>",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/dbouwman/ember-cli-tinycolor",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^5.1.7"
+    "broccoli-funnel": "^1.2.0",
+    "broccoli-merge-trees": "^2.0.0",
+    "ember-cli-babel": "^5.1.7",
+    "tinycolor2": "^1.4.1"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
