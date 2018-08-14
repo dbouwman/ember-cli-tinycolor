@@ -13,7 +13,6 @@ tinycolor("#f00").greyscale().toString(); // "#808080"
 ```
 ... and many others - check out the [tinycolor README](https://github.com/bgrins/TinyColor) for more.
 
-
 Big thanks to [Brian Grinstead](https://github.com/bgrins) for TinyColor!
 
 ## Installation
